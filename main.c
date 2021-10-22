@@ -59,4 +59,16 @@ public:
         // Reset the pointers after displaying the message
         this->lineOffset = 0;
     }
+        void clear(void) {
+        this->messages[0] = "";
+        this->messages[1] = "";
+        this->messages[2] = "";
+        this->messages[3] = "";
+        this->messages[4] = "";
+        this->messages[5] = "";
+        this->messages[6] = "";
+        this->messages[7] = "";
+        this->lineCounter = 0;
+        this->lineOffset = 0;
+    }
 };
